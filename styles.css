@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e3e3e3;
+    color: #111;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+.container {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+}
+
+.hero {
+    padding: 48px 0 24px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 1.05rem;
+    margin: 0;
+    color: #444;
+}
+
+.search-panel,
+.filters-panel {
+    background: #f8f8f8;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.search-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.05rem;
+}
+
+.search-row {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+#carInput {
+    flex: 1;
+    min-width: 260px;
+    padding: 14px 16px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: white;
+}
+
+#carInput:focus {
+    outline: none;
+    border-color: #666;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.08);
+}
+
+#searchButton {
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #111;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+#searchButton:hover {
+    opacity: 0.92;
+    transform: translateY(0);
+}
+
+#searchButton:active {
+    transform: translateY(0);
+}
+
+.filters-panel h2 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.25rem;
+}
+
+.coming-soon {
+    margin: 0;
+    color: #666;
+}
+
+.results-section {
+    padding-bottom: 40px;
+}
+
+.result-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.car-card {
+    background: white;
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.car-card h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 2rem;
+}
+
+.car-card p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 1.05rem;
+}
+
+@media (min-width: 900px) {
+    .result-grid {
+        grid-template-columns: repeat (2, 1fr);
+    }
+}

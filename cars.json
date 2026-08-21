@@ -1,0 +1,61 @@
+[
+    {
+        "id": "audi-rs6",
+        "make": "Audi",
+        "model": "RS6",
+        "aliases": ["Audi RS6", "RS6"],
+        "horsepower": 621,
+        "engine": "4.0L V8 Twin-Turbo",
+        "drivetrain": "All-Wheel Drive",
+        "zeroToSixty": 3.4,
+        "price": 112000
+    },
+    
+    {
+        "id": "bmw-m3",
+        "make": "BMW",
+        "model": "M3",
+        "aliases": ["BMW M3", "M3"],
+        "horsepower": 473,
+        "engine": "3.0L Inline-6 Twin-Turbo",
+        "drivetrain": "Rear-Wheel Drive",
+        "zeroToSixty": 4.1,
+        "price": 70000
+    },
+
+    {
+        "id": "mercedes-amg-gt",
+        "make": "Mercedes-Benz",
+        "model": "AMG GT",
+        "aliases": ["Mercedes AMG GT", "AMG GT"],
+        "horsepower": 523,
+        "engine": "4.0L V8 Twin-Turbo",
+        "drivetrain": "Rear-Wheel Drive",
+        "zeroToSixty": 3.9,
+        "price": 115000
+    },
+
+    {
+        "id": "cadillac-ct5-v-blackwing",
+        "make": "Cadillac",
+        "model": "CT5-V Blackwing",
+        "aliases": ["Cadillac CT5-V Blackwing", "CT5-V Blackwing"],
+        "horsepower": 668,
+        "engine": "6.2L V8 Supercharged",
+        "drivetrain": "Rear-Wheel Drive",
+        "zeroToSixty": 3.7,
+        "price": 84000
+    },
+
+    {
+        "id": "nissan-gtr",
+        "make": "Nissan",
+        "model": "GT-R",
+        "aliases": ["Nissan GT-R", "GT-R"],
+        "horsepower": 565,
+        "engine": "3.8L V6 Twin-Turbo",
+        "drivetrain": "All-Wheel Drive",
+        "zeroToSixty": 2.9,
+        "price": 113000
+    }
+]
